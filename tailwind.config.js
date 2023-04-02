@@ -1,11 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     screens: {
-      'fold': '280px',
-      // => @media (max-width: 640px) { ... }
-
       'sm': '320',
       // => @media (min-width: 640px) { ... }
 
