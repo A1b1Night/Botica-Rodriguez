@@ -1,8 +1,10 @@
-import {Footer , Header} from '../Components/index'
+import {Footer , Header ,Hero} from '../Components/index'
 
 const Home = () => {
   return (
     <div>
+      <Header />
+      <Hero />
       <Footer />
     </div>
   )
