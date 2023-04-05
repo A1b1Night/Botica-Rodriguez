@@ -11,7 +11,7 @@ const Hero = () => {
         <img src={Wave} alt='' className='w-full h-screen bottom-0 left-0 absolute' />
         <div className=' w-full h-screen items-center text-center flex justify-around text-white'>
             <img src={Farmaceutica} alt='' className=''/>
-            <div className='z-10'>
+            <div className='z-0'>
                 <h1 className='text-7xl'>BOTICA RODRIGUEZ</h1>
                 <h3>Mas de 15 años vendiendo medicamentos a Comas</h3>
                 <h4>Tu salud es lo mas importante ❤</h4>
